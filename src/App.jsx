@@ -5,6 +5,7 @@ import './App.css'
 import EmployeDatabase from './Components/Employee Database Management/EmployeDatabase'
 import CountDownTimer from './Components/Countdown Timer/CountDownTimer'
 import Pagination from './Components/Pagination/Pagination'
+import ProgressBar from './Components/Progress Bar/ProgressBar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,8 @@ function App() {
     <>
       {/* <EmployeDatabase /> */}
       {/* <CountDownTimer /> */}
-      <Pagination />
+      {/* <Pagination /> */}
+      <ProgressBar />
     </>
   )
 }
